@@ -1,4 +1,5 @@
 //gcc main.c ../System/System_Program.c
+//hi abbas
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -15,7 +16,7 @@ int main(void)
 
 	while(8 != choice)
 	{
-		printf(" ,__________Welcome__________,\n");
+		printf(" ,__________Hi__________,\n");
 		printf(" |_LIST______________________|\n");
 		printf(" |  1)Add Patient            |\n");
 		printf(" |  2)Edit Patient           |\n");
