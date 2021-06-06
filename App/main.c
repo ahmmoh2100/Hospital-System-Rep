@@ -16,7 +16,7 @@ int main(void)
 
 	while(8 != choice)
 	{
-		printf(" ,__________Hi__________,\n");
+		printf(" ,__________Welcome__________,\n");
 		printf(" |_LIST______________________|\n");
 		printf(" |  1)Add Patient            |\n");
 		printf(" |  2)Edit Patient           |\n");
