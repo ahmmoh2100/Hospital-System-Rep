@@ -1,5 +1,4 @@
 //gcc main.c ../System/System_Program.c
-//hi abbas
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
