@@ -58,9 +58,9 @@ void Edit_patient(void)
 	patient PatientInformation;
 	patient* IdCheck= head;
 	printf("\n***********************************\n*\n");
-	printf("* please enter your ID :");
+	printf("* please enter your ID : ");
 	scanf("%d",&Edit_ID);
-	printf("\n***********************************\n*\n");
+	printf("*\n***********************************\n\n");
 	
 	if(temp==NULL){ // empty
 		printf("The list is Empty");
@@ -69,15 +69,15 @@ void Edit_patient(void)
 	
 	while(temp!=NULL)
 	{
-		if(Edit_ID==temp->ID){
-		  printf("\nWelcome %s \n",temp->name);
-		  printf("Your Age is :%d \nYour Gender is : %s \n",temp -> age ,temp -> gender);
+	     if(Edit_ID==temp->ID){
+		  printf("\n	** Welcome %s \n",temp->name);
+		  printf("	** Your Age is : %d \n	** Your Gender is : %s \n",temp -> age ,temp -> gender);
 		  printf("\n***********************************\n*\n");
 		  printf("*  To Edit Your name Press      1\n"
 				 "*  To Edit Your Age  Press      2\n"
 				 "*  To Edit Your Gender  Press   3\n"
 				 "*  To Edit All Data Press       4\n");
-		  printf("***********************************\n*\n");
+		  printf("*\n***********************************\n\n");
 		 scanf("%d",&InputUser);
 			
 	     switch(InputUser){
